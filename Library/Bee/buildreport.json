@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 509580704341.7,"dur": 12666404.6, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 509580710969.2,"dur": 236313.6, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 509580957310.7,"dur": 11953579.3, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "09/17/2023 22:25:09",
+"meta_command_line": "\"D:\\Unity\\Unity 2021.3.5f1\\Editor\\Unity.exe\" -projectpath D:\\Unity\\Projects\\Test -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-MyPC -hubSessionId 23a3baed-c262-41b1-acdd-f4ada8102261",
+"meta_command_line_args": "D:\\Unity\\Unity 2021.3.5f1\\Editor\\Unity.exe -projectpath D:\\Unity\\Projects\\Test -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-MyPC -hubSessionId 23a3baed-c262-41b1-acdd-f4ada8102261",
+"meta_user_name": "MyPC",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "8"
+}
